@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta name="google-site-verification" content="4w8ad7VF9_SQmDTCF2Q0Y3V6BoNc5ufAWmZqN6buaI4" />
@@ -39,9 +40,6 @@
         linear-gradient(135deg, #07100f 0%, #080b0f 45%, #020304 100%);
       color: var(--text);
       min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
       padding: 32px 18px;
     }
 
@@ -49,6 +47,7 @@
       width: 100%;
       max-width: 760px;
       text-align: center;
+      margin: 0 auto;
     }
 
     .badge {
@@ -72,6 +71,17 @@
       letter-spacing: -1.6px;
     }
 
+    h2 {
+      font-size: 28px;
+      margin: 0 0 22px;
+    }
+
+    h3 {
+      font-size: 18px;
+      margin: 26px 0 8px;
+      color: var(--text);
+    }
+
     .lead {
       max-width: 610px;
       margin: 0 auto 30px;
@@ -80,13 +90,24 @@
       line-height: 1.7;
     }
 
-    .card {
+    .card, .faq {
       background: rgba(17, 23, 32, 0.88);
       border: 1px solid var(--card-border);
       border-radius: 28px;
       padding: 34px;
       box-shadow: 0 24px 80px rgba(0,0,0,0.38);
       backdrop-filter: blur(8px);
+    }
+
+    .faq {
+      margin-top: 28px;
+      text-align: left;
+    }
+
+    .faq p {
+      color: var(--muted);
+      line-height: 1.7;
+      margin: 0;
     }
 
     .label {
@@ -144,40 +165,78 @@
     }
 
     @media (max-width: 520px) {
-      .card {
+      .card, .faq {
         padding: 26px 20px;
         border-radius: 22px;
       }
     }
   </style>
+
 </head>
 <body>
   <main class="wrap">
     <div class="badge">Kast invite page</div>
 
-    <h1>Kast Referral Code<br />V3L91QTU</h1>
+```
+<h1>Kast Referral Code<br />V3L91QTU</h1>
 
-    <p class="lead">
-      If you are signing up for Kast, you can use the referral code or referral link below.
-    </p>
+<p class="lead">
+  If you are signing up for Kast, you can use the referral code or referral link below.
+</p>
 
-    <section class="card">
-      <p class="label">Referral code</p>
-      <p class="code">V3L91QTU</p>
+<section class="card">
+  <p class="label">Referral code</p>
+  <p class="code">V3L91QTU</p>
 
-      <p class="label">Referral link</p>
-      <div class="link-box">https://app.kast.xyz/referral/V3L91QTU</div>
+  <p class="label">Referral link</p>
+  <div class="link-box">https://app.kast.xyz/referral/V3L91QTU</div>
 
-      <a class="button" href="https://app.kast.xyz/referral/V3L91QTU" rel="nofollow sponsored">
-        Open Referral Link
-      </a>
+  <a class="button" href="https://app.kast.xyz/referral/V3L91QTU" rel="nofollow sponsored">
+    Open Referral Link
+  </a>
 
-      <p class="note">
-        This page is provided for convenience and does not contain sponsored claims, guarantees, or financial advice.
-      </p>
-    </section>
+  <p class="note">
+    This page is provided for convenience and does not contain sponsored claims, guarantees, or financial advice.
+  </p>
+</section>
 
-    <p class="footer">Last updated: 2026-06-16</p>
+<section class="faq">
+  <h2>Frequently Asked Questions</h2>
+
+  <h3>What is the Kast referral code?</h3>
+  <p>
+    The Kast referral code on this page is <strong>V3L91QTU</strong>.
+  </p>
+
+  <h3>What is the Kast referral link?</h3>
+  <p>
+    The referral link on this page is <strong>https://app.kast.xyz/referral/V3L91QTU</strong>.
+  </p>
+
+  <h3>Do I need a referral code to create a Kast account?</h3>
+  <p>
+    A referral code may not be required to create a Kast account, but using a valid referral link can help track the referral during signup.
+  </p>
+
+  <h3>How can I use the Kast referral code?</h3>
+  <p>
+    You can open the referral link on this page. If Kast supports referral code entry during registration, you can use the code <strong>V3L91QTU</strong> when signing up.
+  </p>
+
+  <h3>Is this an official Kast website?</h3>
+  <p>
+    No. This is an independent informational page that shares a referral code and referral link for convenience.
+  </p>
+
+  <h3>Does using a referral code guarantee rewards?</h3>
+  <p>
+    No. Reward availability and eligibility depend on Kast's current referral program terms and conditions.
+  </p>
+</section>
+
+<p class="footer">Last updated: 2026-06-16</p>
+```
+
   </main>
 </body>
 </html>
